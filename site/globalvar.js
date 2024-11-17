@@ -1,3 +1,3 @@
-const sss = "✦";
-const serverAddress = "127.0.0.1";
-const serverPort = 8111;
+var sss = "✦";
+var serverAddress = "127.0.0.1";
+var serverPort = 8111;
