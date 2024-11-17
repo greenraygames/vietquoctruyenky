@@ -17,5 +17,5 @@ function Request(uid, stringDat)
                     }
                 }
             };
-            xhr.send(uid + "/" + stringDat);
+            xhr.send(uid + sss + stringDat);
 }
