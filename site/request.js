@@ -1,3 +1,6 @@
+var respondStringA1 = "";
+var gotRespond = false;
+
 function Request(uid, stringDat)
 {
   const xhr = new XMLHttpRequest();
