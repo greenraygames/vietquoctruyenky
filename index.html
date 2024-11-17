@@ -6,53 +6,93 @@
   <meta name="description" content="MMORPG Việt Quốc Truyền Kỳ - A game for Vietnamese players by Green Ray Games">
   <title>Việt Quốc Truyền Kỳ</title>
   <style>
+    /* General Styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #e8f5e9; /* Light green background */
       color: #333;
     }
 
     header {
       text-align: center;
       padding: 1em;
-      background: #1e3c72;
+      background: #2e7d32; /* Dark green */
       color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     section {
       max-width: 800px;
       margin: 2em auto;
-      padding: 1em;
+      padding: 1.5em;
       background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
 
     h2 {
-      color: #1e3c72;
+      color: #2e7d32;
     }
 
     p {
-      line-height: 1.6;
+      line-height: 1.8;
+      color: #555;
     }
 
     a {
-      color: #1e3c72;
+      color: #2e7d32;
       text-decoration: none;
       font-weight: bold;
+      transition: color 0.3s ease, text-shadow 0.3s ease;
     }
 
     a:hover {
-      text-decoration: underline;
+      color: #1b5e20;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     footer {
       text-align: center;
       margin: 2em 0;
       font-size: 0.9rem;
-      color: #555;
+      color: #666;
+    }
+
+    footer a {
+      color: #2e7d32;
+    }
+
+    footer a:hover {
+      color: #1b5e20;
+    }
+
+    /* Button Styling */
+    .button {
+      display: inline-block;
+      padding: 0.8em 1.5em;
+      background-color: #2e7d32;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #1b5e20;
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -68,7 +108,7 @@
       Explore a vibrant world, complete quests, and engage in epic battles.
     </p>
     <p>
-      Visit our website: <a href="https://www.vietquoctruyenky.com/" target="_blank">vietquoctruyenky.com</a>
+      Visit our website: <a href="https://www.vietquoctruyenky.com/" target="_blank" class="button">Visit Site</a>
     </p>
   </section>
 
@@ -79,12 +119,13 @@
       Khám phá thế giới sôi động, hoàn thành nhiệm vụ, và tham gia những trận chiến hoành tráng.
     </p>
     <p>
-      Truy cập website của chúng tôi: <a href="https://www.vietquoctruyenky.com/" target="_blank">vietquoctruyenky.com</a>
+      Truy cập website của chúng tôi: <a href="https://www.vietquoctruyenky.com/" target="_blank" class="button">Truy Cập Ngay</a>
     </p>
   </section>
 
   <footer>
-    &copy; 2024 Green Ray Games. All rights reserved.
+    &copy; 2024 Green Ray Games. All rights reserved. Visit us at 
+    <a href="https://www.vietquoctruyenky.com/" target="_blank">vietquoctruyenky.com</a>
   </footer>
 </body>
 </html>
