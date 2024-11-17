@@ -1,2 +1,3 @@
 This project is for a game in a native language ![Language](https://img.shields.io/badge/Language-Vietnamese-green)
-![Site](https://www.vietquoctruyenky.com/)
+
+[![Visit Site](https://img.shields.io/badge/Visit-Site-blue)](https://www.vietquoctruyenky.com/)
