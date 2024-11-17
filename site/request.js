@@ -1,5 +1,3 @@
-var respondString = "";
-
 function Request(uid, stringDat)
 {
   const xhr = new XMLHttpRequest();
@@ -11,7 +9,7 @@ function Request(uid, stringDat)
                 {
                     if (xhr.status === 200) 
                     {
-                        respondString = xhr.responseText;
+                        respondStringA1 = xhr.responseText;
                     } else 
                     {
                         alert(xhr.status);
