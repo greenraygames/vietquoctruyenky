@@ -1,2 +1,1 @@
-Viet Quoc Truyen Ky PJ
-Dev by Green Ray Games
+![Language](https://img.shields.io/badge/Language-Vietnamese-green)
