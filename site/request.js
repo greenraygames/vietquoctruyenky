@@ -13,7 +13,9 @@ function Request(uid, stringDat)
                     if (xhr.status === 200) 
                     {
                         respondStringA1 = xhr.responseText;
-                    } else 
+                        gotRespond = true;
+                    } 
+                    else 
                     {
                         alert(xhr.status);
                     }
