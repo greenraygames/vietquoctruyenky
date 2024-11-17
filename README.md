@@ -1,3 +1,3 @@
-This project is for a game in a native language ![Language](https://img.shields.io/badge/Language-Vietnamese-green)
+This project is for a game in a native language.
 
-[![Visit Our Game Homepage](https://img.shields.io/badge/Visit-Site-blue)](https://www.vietquoctruyenky.com/)
+Dev by Green Ray Games
