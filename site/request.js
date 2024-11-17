@@ -1,12 +1,9 @@
-const returnString = "";
+var returnString = "";
 
 function Request(uid, stringDat)
 {
-  const serverAddress = "127.0.0.1";
-  const serverPort = 2111;
-
-  onst xhr = new XMLHttpRequest();
-  xhr.open("POST", `http://127.0.0.1:8111/, true);
+  const xhr = new XMLHttpRequest();
+  xhr.open("POST", "http://127.0.0.1:8111/", true);
   xhr.setRequestHeader('Content-Type', 'text/plain');
   xhr.onreadystatechange = function() 
             {
@@ -21,5 +18,5 @@ function Request(uid, stringDat)
                     }
                 }
             };
-            xhr.send(message);
+            xhr.send(uid + "/" + stringDat);
 }
