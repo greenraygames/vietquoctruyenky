@@ -1,4 +1,4 @@
-var returnString = "";
+var respondString = "";
 
 function Request(uid, stringDat)
 {
@@ -11,7 +11,7 @@ function Request(uid, stringDat)
                 {
                     if (xhr.status === 200) 
                     {
-                        returnString = xhr.responseText;
+                        respondString = xhr.responseText;
                     } else 
                     {
                         alert(xhr.status);
