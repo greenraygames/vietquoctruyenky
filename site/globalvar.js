@@ -1,3 +1,3 @@
 var sss = "✦";
-var serverAddress = "127.0.0.1";
+var serverAddress = "103.252.123.95";
 var serverPort = 8111;
