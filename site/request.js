@@ -3,7 +3,7 @@ function Request(uid, stringDat)
   try
   {
   const xhr = new XMLHttpRequest();
-  xhr.open("POST", `https://${serverAddress}:${serverPort}/`, true);
+  xhr.open("POST", `http://${serverAddress}:${serverPort}/`, true);
   xhr.setRequestHeader('Content-Type', 'text/plain');
   xhr.onreadystatechange = function() 
             {
@@ -23,6 +23,6 @@ function Request(uid, stringDat)
   }
   catch(error)
   {
-    console.log(error.message);
+    console.log("LỖI: " + error.message);
   }
 }
