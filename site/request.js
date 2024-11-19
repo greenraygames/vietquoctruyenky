@@ -15,7 +15,7 @@ function Request(uid, stringDat)
                     } 
                     else 
                     {
-                        alert(xhr.status);
+                        alert("Request_Chú ý 01: " + xhr.status);
                     }
                 }
             };
@@ -23,6 +23,6 @@ function Request(uid, stringDat)
   }
   catch(error)
   {
-    console.log("LỖI: " + error.message);
+    console.log("Request_Lỗi 01: " + error.message);
   }
 }
