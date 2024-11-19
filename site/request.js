@@ -15,7 +15,7 @@ function Request(uid, stringDat)
                     } 
                     else 
                     {
-                        alert("Request_Chú ý 01: " + xhr.status);
+                        console.log("Request_Chú ý 01: " + xhr.status);
                     }
                 }
             };
