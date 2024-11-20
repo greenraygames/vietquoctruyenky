@@ -4,7 +4,7 @@ function Request(uid, stringDat)
   {
   const xhr = new XMLHttpRequest();
   xhr.open("POST", `https://${serverAddress}:${serverPort}/`, true);
-  xhr.setRequestHeader('Content-Type', 'text/plain');
+  xhr.setRequestHeader('Content-Type', 'text/plain; charset=UTF-8');
   xhr.onreadystatechange = function() 
             {
                 if (xhr.readyState === XMLHttpRequest.DONE) 
