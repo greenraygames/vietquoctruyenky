@@ -1,3 +1,3 @@
 var sss = "✦";
-var serverAddress = "103.252.123.95";
+var serverAddress = "vietquoctruyenky.run.place"; //phải để đúng tên miền để đc thông qua SSL cert.
 var serverPort = 8111;
